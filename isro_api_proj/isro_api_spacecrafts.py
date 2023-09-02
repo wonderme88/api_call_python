@@ -1,6 +1,9 @@
 import requests
 import constants.api_end_points
 import logging
+import constants.constants_strings
+
+
 
 # Configure the logging settings
 #logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -31,8 +34,8 @@ def get_spacecft_names():
         spacecft_ids_list = []
         spacecft_names_list = []
         for x in range(0, list_size):
-            spacecft_ids_list.append(response_json['spacecrafts'][x]['id'])
-            spacecft_names_list.append(response_json['spacecrafts'][x]['name'])
+            spacecft_ids_list.append(response_json[constants.constants_strings.SPACECRAFTS][x][constants.constants_strings.ID])
+            spacecft_names_list.append(response_json[constants.constants_strings.SPACECRAFTS][x][constants.constants_strings.NAME])
         return spacecft_names_list
     else:  
         logging.info(f"Failed to fetch data. Status code: {response.status_code}")

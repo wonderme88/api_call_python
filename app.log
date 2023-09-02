@@ -1,7 +1,7 @@
-2023-08-26 16:56:56,982 - INFO - The url is https://isro.vercel.app/api/spacecrafts
-2023-08-26 16:56:56,993 - DEBUG - Starting new HTTPS connection (1): isro.vercel.app:443
-2023-08-26 16:56:57,340 - DEBUG - https://isro.vercel.app:443 "GET /api/spacecrafts HTTP/1.1" 200 None
-2023-08-26 16:56:57,342 - INFO - <li>Aryabhata</li>
+2023-09-01 10:48:33,263 - INFO - The url is https://isro.vercel.app/api/spacecrafts
+2023-09-01 10:48:33,270 - DEBUG - Starting new HTTPS connection (1): isro.vercel.app:443
+2023-09-01 10:48:33,656 - DEBUG - https://isro.vercel.app:443 "GET /api/spacecrafts HTTP/1.1" 200 None
+2023-09-01 10:48:33,661 - INFO - <li>Aryabhata</li>
 <li>Bhaskara-I</li>
 <li>Rohini Technology Payload (RTP)</li>
 <li>Rohini Satellite RS-1</li>
